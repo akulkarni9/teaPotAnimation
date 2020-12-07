@@ -11,7 +11,7 @@ using namespace std;
 double rotAngle = 10; // Beware: Global variable!!
 void init()
 {
-glClearColor(0.96, 0.98, 0.03, 0); // You can use your own color here in (r,g,b,0) format
+glClearColor(0.96, 0.98, 0.03, 0); // You can use your own color here in (r,g,b,O) format
 glClearDepth(1.0); 
 glMatrixMode(GL_PROJECTION);
 glLoadIdentity();
